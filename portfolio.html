@@ -11,28 +11,34 @@
     <link rel="stylesheet" href="./css/normalize.css">
   </head>
   <body>
-  <header class="header header-portfolio">
+ <header class="header">
       <div class="container header-flex">
       <a class="header-logo" href="./index.html"><p lang="en"><span class="logo-start">Web</span><span class="logo-end">Studio</span></p></a>
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-nav-link header-hover-item" href="./index.html">Студія</a>
+            <a class="header-link header-hover-item" href="./index.html">Студія</a>
           </li>
           <li class="header-item">
-            <a class="header-nav-link header-hover-item" href="./portfolio.html">Портфоліо</a>
+            <a class="header-second-link header-hover-item" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="header-item">
-            <a class="header-nav-link header-hover-item" href="#">Контакти</a>
+            <a class="header-link header-hover-item" href="#">Контакти</a>
           </li>
         </ul>
       </nav>
       <ul class="header-contact">
         <li class="header-contact-item">
-          <a class="header-contact-link header-hover-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <svg class="contact-icon" width="16" height="12">
+              <use href="./img/symbol-defs.svg#envelope"/> 
+              </svg>
+          <a class="header-contact-mail header-hover-item contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="header-contact-item">
-          <a class="header-contact-link header-hover-item" href="tel:+380961111111">+38 096 111 11 11</a>
+          <svg class="contact-icon" width="10" height="16">
+              <use href="./img/symbol-defs.svg#smartphone"/> 
+              </svg>
+          <a class="header-contact-number header-hover-item contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -126,6 +132,46 @@
           <a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+      <div class="footer-media-flex">
+        <h2 class="join-us">приєднуйтесь</h2>
+      <ul class="media-list footer-media">
+                <li class="media-item media-footer">
+                  <a href="#">
+                  <svg class="instagram media footer-svg" width="40" height="40">
+              <use href="./img/symbol-defs.svg#instagram"/> 
+              </svg>
+                  </a>
+              
+                </li>
+                <li class="media-item media-footer">
+                  <a href="#">
+                <svg class="twitter media footer-svg" width="40" height="40">
+                <use href="./img/symbol-defs.svg#twitter"/> 
+              </svg>
+              </a>
+                </li>
+
+                <li class="media-item media-footer">
+                  <a href="#">
+                  <svg class="facebook media footer-svg" width="40" height="40">
+              <use href="./img/symbol-defs.svg#facebook"/> 
+              </svg>
+              </a>
+              
+                </li>
+
+                <li class="media-item media-footer">
+                  <a href="#">
+                  <svg class="linkedin media footer-svg" width="40" height="40">
+              <use href="./img/symbol-defs.svg#linkedin"/> 
+              </svg>
+              </a>
+              
+                </li>
+
+                
+              </ul>
+              </div>
       </div>
     </footer>
   </body>
